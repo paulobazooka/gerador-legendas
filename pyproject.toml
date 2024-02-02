@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "generate-subtitle"
+version = "0.1.0"
+description = "Projeto para obter as legendas de um vídeo."
+authors = ["Paulo Sérgio do Nascimento <paulosergionas@gmail.com>"]
+readme = "README.md"
+packages = [{include = "generate_subtitle"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+faster-whisper = "^0.10.0"
+ffmpeg-python = "^0.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
